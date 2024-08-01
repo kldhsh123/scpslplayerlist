@@ -58,7 +58,7 @@
 </head>
 <body>
     <div class="card">
-        <h2>大桔子服务器人数查询</h2>
+        <h2>秘密实验室服务器人数查询</h2>
         <?php
         // 设置API相关信息
         $api_url = 'https://scp.manghui.net/list/';
