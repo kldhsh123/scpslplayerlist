@@ -65,7 +65,7 @@
         $serverIp = '127.0.0.1,192.168.1.1';
 
         // 构建API请求URL
-        $request_url=api_url . '?serverIp=' . urlencode($servers);
+        $request_url = $api_url . '?serverIp=' . urlencode($serverIp)
 
         // 发送请求并获取响应
         $response = file_get_contents($request_url);
